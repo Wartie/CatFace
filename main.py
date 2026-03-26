@@ -26,11 +26,11 @@ PANEL_WIDTH     = 300
 EXPR_IMG_SIZE   = 220
 
 # Expression labels — also the expected image filenames (without extension)
-EXPRESSION_LABELS = ["happy", "sad", "angry", "surprise", "fear", "disgust", "neutral"] #these match the output labels of the model
+EXPRESSION_LABELS = ["happy", "sad", "anger", "surprise", "fear", "disgust", "neutral"] #these match the output labels of the model
 LABEL_COLOURS = {
     "happy":    (0,   220, 80),
     "sad":      (200, 80,  0),
-    "angry":    (0,   0,   220),
+    "anger":    (0,   0,   220),
     "surprise": (0,   200, 220),
     "fear":     (150, 0,   200),
     "disgust":  (0,   150, 100),
